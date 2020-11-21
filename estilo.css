@@ -1,0 +1,121 @@
+.icone {
+	height: 50px;
+}
+/**********CONTEÚDO************/
+body {
+	background-color: #FEFDDE;
+}
+/***********CABEÇALHO***********/
+header {
+	background-color: #18B2E6;
+}
+
+footer {
+	text-align: center;
+}
+.site-header-logo {
+	font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+	font-size: 3rem;
+	color: white;
+}
+
+.site-header-logo:hover{
+	text-decoration: none;
+	color: pink;
+}
+
+.desenho {
+	height: 60px;
+}
+
+/*************NAVBAR*************/
+#navbar {
+	background-color: #18B2E6;
+}
+
+.nav-link {
+	color: white;
+}
+
+#atual {
+	color: black;
+}
+
+/************SLIDESHOW************/
+#slide {
+  background-image: url("imagens/chihiro.jpg"); 
+  background-size: cover;
+}
+
+.jumbotron {
+	margin-top: 10px;//
+	height: 500px;
+	width: 1000px;
+}
+
+/******SOBRE A STUDIO GHIBLI******/
+#autor-texto:hover {
+	text-decoration: none;
+}
+
+.titulo-postagem {
+	background-color: #F2A7B5;
+	color: white;
+	font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+	font-style: italic;
+}
+
+#conteudo {
+	margin-top: 8px;
+}
+
+#sobre {
+	font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+/**********CARDS RECENTES************/
+#leia {
+	background-color: #F2BF5E;	
+}
+
+.card_image {
+	width:100%;
+}
+
+#cor-guia {
+	color: #F2A7B5;
+}
+
+#cor-noticia {
+	color: #BF3939;
+}
+
+#cor-review {
+	color: #83A638;
+}
+
+/*FOOTER*/
+.blog-footer {
+	height: 300px;
+	background-color: #F2A7B5; 
+}
+
+#faixa-filmes {
+	background-color: #F2A7B5;
+	margin-top: 50px;
+}
+
+#totoro_footer {
+	width: 300px;
+}
+
+#posicao_boneco {
+	margin-right: 10px;
+}
+
+
+.rede {
+	height: 50px;
+	margin-top: 10px;
+}
+
