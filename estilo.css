@@ -5,6 +5,8 @@
 body {
 	background-color: #FEFDDE;
 }
+
+
 /***********CABEÇALHO***********/
 header {
 	background-color: #18B2E6;
@@ -21,7 +23,7 @@ footer {
 
 .site-header-logo:hover{
 	text-decoration: none;
-	color: pink;
+	color: #F2A7B5;
 }
 
 .desenho {
@@ -35,6 +37,10 @@ footer {
 
 .nav-link {
 	color: white;
+}
+
+.nav-link:hover {
+	color: #F2A7B5
 }
 
 #atual {
@@ -73,6 +79,17 @@ footer {
 	font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
+.photo {
+	height: 300px;
+	width: 500px;
+	background-image: 100%;
+}
+
+.cartaz {
+	height: 300px;
+	width: 200px;
+	
+}
 /**********CARDS RECENTES************/
 #leia {
 	background-color: #F2BF5E;	
@@ -119,3 +136,11 @@ footer {
 	margin-top: 10px;
 }
 
+.guias {
+	height: 200px;
+	width: 1000px;
+	background-size: 100%;
+}
+.guias:hover {
+	opacity: 70%;
+}
