@@ -1,11 +1,7 @@
+
 .icone {
 	height: 50px;
 }
-/**********CONTEÚDO************/
-body {
-	background-color: #FEFDDE;
-}
-
 
 /***********CABEÇALHO***********/
 header {
@@ -15,6 +11,7 @@ header {
 footer {
 	text-align: center;
 }
+
 .site-header-logo {
 	font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 	font-size: 3rem;
@@ -28,6 +25,11 @@ footer {
 
 .desenho {
 	height: 60px;
+}
+
+/**********FUNDO************/
+body {
+	background-color: #FEFDDE;
 }
 
 /*************NAVBAR*************/
@@ -59,7 +61,10 @@ footer {
 	width: 1000px;
 }
 
-/******SOBRE A STUDIO GHIBLI******/
+.jumbotron:hover {
+	opacity: 80%;
+}
+/************SOBRE************/
 #autor-texto:hover {
 	text-decoration: none;
 }
@@ -84,11 +89,15 @@ footer {
 	width: 500px;
 	background-image: 100%;
 }
-
+/*************FILMES*************/
 .cartaz {
-	height: 300px;
+	height: 280px;
 	width: 200px;
-	
+	padding-right: 20px;
+}
+
+.cartaz:hover {
+	opacity: 70%;
 }
 /**********CARDS RECENTES************/
 #leia {
@@ -136,6 +145,38 @@ footer {
 	margin-top: 10px;
 }
 
+.rede:hover {
+	opacity: 40%;
+}
+
+.titulo-footer {
+	font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+	font-size: 3rem;
+	color: white;
+	padding-right: 6rem;
+}
+
+.autora {
+	font-family: "Georgia";
+	font-size: 1rem;
+	margin-left: 20px;
+	color: white;
+}
+
+.version {
+	margin-left: 20px;
+	margin-top: 70px;
+	color: white;
+	font-family: "Playfair Display";
+}
+
+.conecte {
+	margin-top: 180px;
+	margin-left: 50px;
+}
+
+
+/************GUIAS************/
 .guias {
 	height: 200px;
 	width: 1000px;
