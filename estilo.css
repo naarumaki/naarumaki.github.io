@@ -108,15 +108,15 @@ body {
 	width:100%;
 }
 
-#cor-guia {
+.cor-guia {
 	color: #F2A7B5;
 }
 
-#cor-noticia {
+.cor-noticia {
 	color: #BF3939;
 }
 
-#cor-review {
+.cor-review {
 	color: #83A638;
 }
 
