@@ -64,6 +64,26 @@ body {
 .jumbotron:hover {
 	opacity: 80%;
 }
+
+#guia1 {
+	background-image: url(imagens/guia1.jpg);
+}
+
+#guia2 {
+	background-image: url(imagens/guia2.jpg);
+}
+
+#guia3 {
+	background-image: url(imagens/guia3.jpg);
+}
+
+#guia4 {
+	background-image: url(imagens/guia4.jpg);
+}
+
+#guia5 {
+	background-image: url(imagens/guia5.jpg);
+}
 /************SOBRE************/
 #autor-texto:hover {
 	text-decoration: none;
