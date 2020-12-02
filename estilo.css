@@ -233,6 +233,14 @@ body {
 	width: 500px;
 	background-image: 100%;
 }
+
+.perfil {
+	height: 80px;
+}
+
+.perfil-nome {
+	margin-left: 10px;
+}
 /*************FILMES*************/
 .cartaz {
 	height: 280px;
