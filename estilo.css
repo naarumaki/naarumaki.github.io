@@ -201,6 +201,13 @@ body {
 }
 
 
+.card-text {
+	color: black;
+}
+
+.continue {
+	color: blue;
+}
 /************SOBRE************/
 #autor-texto:hover {
 	text-decoration: none;
@@ -392,13 +399,6 @@ figcaption {
 .conecte {
 	margin-top: 180px;
 	margin-left: 50px;
-}
-.review-titulo {
-	color: black;
-}
-
-.review-titulo:hover {
-	text-decoration: none;
 }
 
 
