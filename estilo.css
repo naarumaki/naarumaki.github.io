@@ -32,6 +32,10 @@ body {
 	background-color: #FEFDDE;
 }
 
+
+#body-home {
+	background-color: #FEFDDE;
+}
 /*************NAVBAR*************/
 #navbar {
 	background-color: #18B2E6;
@@ -39,6 +43,7 @@ body {
 
 .nav-link {
 	color: white;
+	font-size: 20px;
 }
 
 .nav-link:hover {
@@ -49,10 +54,87 @@ body {
 	color: black;
 }
 
+.btn {
+	background-color: #F2BF5E;
+	color: white;
+}
+
+.btn:hover {
+	background-color: #BF3939;
+	color:white;
+}
+
+#btn-home {
+	background-color: #F2BF5E;
+	color: white;
+}
+
+#btn-home:hover {
+	background-color: #BF3939;
+	color:white;
+}
+
 /************SLIDESHOW************/
-#slide {
-  background-image: url("imagens/chihiro.jpg"); 
-  background-size: cover;
+.carousel {
+	margin-top: 10px;
+}
+
+.carousel-item {
+	height: 600px;
+}
+
+.carousel-item:hover {
+	opacity: 80%;
+}
+
+.banner {
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+}
+
+/*************GUIAS*************/
+
+.faixa {
+	align-items: center;
+	height: 60px;
+	margin-bottom: 50px;
+	border-radius: 4px;
+}
+
+
+
+#faixa-reviews {
+	background-color: #F2A7B5;
+	margin-top: -20px;
+}
+
+#faixa-guias {
+	background-color: #89D9D9;
+	margin-top: -20px;
+}
+
+#faixa-noticias {
+	background-color: #F2BF5E;
+	margin-top: -20px;
+}
+
+#turnip {
+	margin-top: -20px;
+	height: 180px;
+	margin-bottom: -90px;
+	margin-left: 90.5%;
+}
+
+#calcifer {
+	margin-top: -20px;
+	height: 120px;
+	margin-left: -40px;
+	margin-bottom: -170px;
+}
+
+.pagina-titulos {
+	font-size: 20px;
 }
 
 .jumbotron {
@@ -65,25 +147,60 @@ body {
 	opacity: 80%;
 }
 
+.home {
+	background-color: #FEFDDE;
+}
+
+
 #guia1 {
 	background-image: url(imagens/guia1.jpg);
+	background-position-y: top;
 }
 
 #guia2 {
 	background-image: url(imagens/guia2.jpg);
+	background-position-y: 70%;
 }
 
 #guia3 {
 	background-image: url(imagens/guia3.jpg);
+	background-position-y: top;
 }
 
 #guia4 {
-	background-image: url(imagens/guia4.jpg);
+	background-image: url(imagens/guia4.png);
+	background-position-y:80%;
 }
 
 #guia5 {
 	background-image: url(imagens/guia5.jpg);
 }
+
+.letreiro {
+	background-color: white;
+	font-size: 20px;
+	margin-top: -14px;
+	margin-bottom: 14px;
+}
+
+.foto-guias {
+	width: 100%;
+}
+
+.card-guia {
+	width: 900px;
+	height: 200px;
+}
+
+.g1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #89D9D9;
+	border-radius: 4px;
+	color: white;
+}
+
+
 /************SOBRE************/
 #autor-texto:hover {
 	text-decoration: none;
@@ -118,7 +235,84 @@ body {
 
 .cartaz:hover {
 	opacity: 70%;
+
 }
+.trailer {
+	margin-bottom: 18px;
+}
+.efeito {
+  opacity: 1;
+  position: relative;
+  height: 280px;
+  width: 180px;
+}
+
+.efeito figure .box-black {
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: 1;
+  background-color: black;
+  transition: all 0.5s ease-in;
+}
+
+figcaption {
+	color: #000;
+  	position: absolute;
+  	opacity: 0;
+  	left: 0;
+  	bottom: 0;
+  	color: #FFF;
+  	font-size: 20px;
+  	text-align: center;
+  	display: block;
+  	margin: auto;
+  	transform: translateY(0%);
+  	transition: all 0.5s ease-in .5s;
+  	z-index: 2;
+  	width: 100%;
+}
+.efeito:hover figure .box-black {
+  opacity: 0.5;
+  height: 100%;
+}
+.efeito:hover figure figcaption {
+  opacity: 1;
+  bottom: 30px;
+}
+
+
+/*noticias*/
+#jiji2 {
+	height: 140px;
+	margin-bottom: -100px;
+	margin-top: 20px;
+	margin-left: -30px;
+}
+
+#ribbon {
+	height: 90px;
+	margin-left: 1000px;
+	margin-bottom: -54px;
+}
+
+#totoro {
+	height: 140px;
+	margin-bottom: -60px;
+	margin-top: 20px;
+	margin-left: -30px;
+}
+
+#kaonashi {
+	margin-top: 20px;
+	height: 120px;
+	margin-left: 920px;
+	margin-bottom: -80px;
+}
+
 /**********CARDS RECENTES************/
 #leia {
 	background-color: #F2BF5E;	
@@ -174,6 +368,7 @@ body {
 	font-size: 3rem;
 	color: white;
 	padding-right: 6rem;
+	margin-left: -120px;
 }
 
 .autora {
@@ -181,6 +376,10 @@ body {
 	font-size: 1rem;
 	margin-left: 20px;
 	color: white;
+}
+
+.a-index {
+	margin-left: 20px;
 }
 
 .version {
